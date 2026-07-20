@@ -1,0 +1,665 @@
+[
+    {
+        "id": 100,
+        "name": "Accessories Model 28 MM BAR",
+        "category": "accessories",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./28 mm bar-AHc1631619513.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality accessories equipment perfect for your fitness needs."
+    },
+    {
+        "id": 101,
+        "name": "Accessories Model AB",
+        "category": "accessories",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./AB-1005-FQK1606392866.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality accessories equipment perfect for your fitness needs."
+    },
+    {
+        "id": 102,
+        "name": "Cross Training Model CT",
+        "category": "cross-training",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./ct-562-uTt1689837655.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality cross training equipment perfect for your fitness needs."
+    },
+    {
+        "id": 103,
+        "name": "Cross Training Model CT",
+        "category": "cross-training",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./ct-581-d9B1764674573.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality cross training equipment perfect for your fitness needs."
+    },
+    {
+        "id": 104,
+        "name": "Cross Training Model CT",
+        "category": "cross-training",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./ct-583-JFk1764673920.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality cross training equipment perfect for your fitness needs."
+    },
+    {
+        "id": 105,
+        "name": "Cross Training Model CT",
+        "category": "cross-training",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./ct-590-McI1764670906.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality cross training equipment perfect for your fitness needs."
+    },
+    {
+        "id": 106,
+        "name": "Cross Training Model CT",
+        "category": "cross-training",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./ct-593-txD1681198819.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality cross training equipment perfect for your fitness needs."
+    },
+    {
+        "id": 107,
+        "name": "Cross Training Model CT",
+        "category": "cross-training",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./ct-595-QJC1764670094.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality cross training equipment perfect for your fitness needs."
+    },
+    {
+        "id": 108,
+        "name": "Home Gym Model HG",
+        "category": "home-gym",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./hg-1211-j271681205300.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality home gym equipment perfect for your fitness needs."
+    },
+    {
+        "id": 109,
+        "name": "Home Gym Model HG",
+        "category": "home-gym",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./hg-1211-T7G1681205287.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality home gym equipment perfect for your fitness needs."
+    },
+    {
+        "id": 110,
+        "name": "Home Gym Model HG",
+        "category": "home-gym",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./hg-1213-CyE1681205274.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality home gym equipment perfect for your fitness needs."
+    },
+    {
+        "id": 111,
+        "name": "Home Gym Model HG",
+        "category": "home-gym",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./hg-1233-TkE1681205172.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality home gym equipment perfect for your fitness needs."
+    },
+    {
+        "id": 112,
+        "name": "Home Gym Model HG",
+        "category": "home-gym",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./hg-1242-4mT1681205256.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality home gym equipment perfect for your fitness needs."
+    },
+    {
+        "id": 113,
+        "name": "Home Gym Model IMG39",
+        "category": "home-gym",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./img39-zik1739959288.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality home gym equipment perfect for your fitness needs."
+    },
+    {
+        "id": 114,
+        "name": "Spine Bike Model SP",
+        "category": "spine-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./sp-2206-fy91764917231.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality spine bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 115,
+        "name": "Spine Bike Model SP",
+        "category": "spine-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./sp-2207-lSR1686130944.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality spine bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 116,
+        "name": "Spine Bike Model SP",
+        "category": "spine-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./SP-2208-aV51740056647.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality spine bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 117,
+        "name": "Treadmill Model Treadmill J",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./j-1535-MNc1681198231.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 118,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./TM-104-uUO1684838124.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 119,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./TM-116-xLP1684837953.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 120,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-131-Ah41681197384.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 121,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./TM-147-9tr1684837321.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 122,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-154-IXG1707893033.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 123,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-155ac-zLS1764661939.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 124,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-155dc-f1X1764668513.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 125,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./TM-157 BK-t7h1604125467.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 126,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-158-gkk1688712481.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 127,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./TM-161-Hly1684837045.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 128,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-218-GGh1764662650.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 129,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./tm-320ac-fk41764660272.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 130,
+        "name": "Treadmill Model TM",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./TM-321AC-KdQ1764659793.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 131,
+        "name": "Treadmill Model TRDMIL",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./trdmil-HXW1778048682.jpeg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 132,
+        "name": "Treadmill Model Treadmill WP",
+        "category": "treadmill",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./wp-101-0JE1764667857.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality treadmill equipment perfect for your fitness needs."
+    },
+    {
+        "id": 133,
+        "name": "Upright Bike Model UP",
+        "category": "upright-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./up-903-kVI1764916702.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality upright bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 134,
+        "name": "Upright Bike Model UP",
+        "category": "upright-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./up-906-fKJ1707894914.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality upright bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 135,
+        "name": "Upright Bike Model UP",
+        "category": "upright-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./up-949-lRq1764679966.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality upright bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 136,
+        "name": "Upright Bike Model UP",
+        "category": "upright-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./up-972-4i21764675759.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality upright bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 137,
+        "name": "Upright Bike Model UP",
+        "category": "upright-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./up-982-UWA1764675158.jpg",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality upright bike equipment perfect for your fitness needs."
+    },
+    {
+        "id": 138,
+        "name": "Upright Bike Model UP",
+        "category": "upright-bike",
+        "price": "Price on Enquiry",
+        "rawPrice": 0,
+        "image": "./up-999-kD31678958159.png",
+        "features": [
+            "Premium Built",
+            "Commercial Grade",
+            "Durable"
+        ],
+        "specs": [
+            "Contact us for detailed specifications and sizing."
+        ],
+        "desc": "High-quality upright bike equipment perfect for your fitness needs."
+    }
+]

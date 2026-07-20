@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Quotation - Global Fitness</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f5;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .a4-page {
+            width: 210mm;
+            min-height: 297mm;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 40px auto;
+            padding: 20mm;
+            box-sizing: border-box;
+            position: relative;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 2px solid #e4e4e7;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .logo-container h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 800;
+            color: #09090b;
+            letter-spacing: -1px;
+        }
+        
+        .logo-container p {
+            margin: 5px 0 0 0;
+            color: #71717a;
+            font-size: 14px;
+        }
+        
+        .doc-details {
+            text-align: right;
+        }
+        
+        .doc-details h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #2563eb;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .doc-details p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+            color: #52525b;
+        }
+        
+        .client-info {
+            margin-bottom: 40px;
+        }
+        
+        .client-info h3 {
+            font-size: 16px;
+            color: #a1a1aa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .client-info p {
+            margin: 0;
+            font-size: 15px;
+            color: #27272a;
+            font-weight: 600;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        th {
+            background: #f8fafc;
+            color: #475569;
+            text-align: left;
+            padding: 12px 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+            font-size: 15px;
+        }
+        
+        .item-desc {
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 4px;
+        }
+        
+        .item-sub {
+            font-size: 13px;
+            color: #64748b;
+        }
+        
+        .amt {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .totals-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 50px;
+        }
+        
+        .totals-table {
+            width: 350px;
+            border-collapse: collapse;
+        }
+        
+        .totals-table td {
+            padding: 10px 15px;
+            border: none;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .totals-table tr:last-child td {
+            border-bottom: none;
+            font-weight: 800;
+            font-size: 20px;
+            color: #0f172a;
+            background: #f8fafc;
+        }
+        
+        .footer-note {
+            text-align: center;
+            color: #64748b;
+            font-size: 14px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        /* Print Specific Styling */
+        @media print {
+            body { background: white; }
+            .a4-page { box-shadow: none; margin: 0; padding: 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="a4-page">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-container">
+                <h1>Web Development Services</h1>
+                <p>Custom Software & Digital Solutions</p>
+            </div>
+            <div class="doc-details">
+                <h2>Quotation</h2>
+                <p>Date: July 03, 2026</p>
+                <p>Quote Ref: #QT-2026-0703</p>
+            </div>
+        </div>
+
+        <!-- Client Info -->
+        <div class="client-info">
+            <h3>Prepared For</h3>
+            <p>Global Fitness & Sports</p>
+            <p style="font-weight: 400; color: #52525b;">Devaraj Urs Road, Mysore, Karnataka - 570001</p>
+            <p style="font-weight: 400; color: #52525b;">Project: Premium Showroom Website & E-Catalogue</p>
+        </div>
+
+        <!-- Line Items -->
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 70%;">Description of Services</th>
+                    <th class="amt" style="width: 30%;">Amount (INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="item-desc">UI/UX Design & Premium Theme Layout</div>
+                        <div class="item-sub">Custom dark-mode aesthetic, glassmorphism UI components, responsive architectural planning, and custom branding implementation.</div>
+                    </td>
+                    <td class="amt">₹4,000.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item-desc">Frontend Web Development</div>
+                        <div class="item-sub">Semantic HTML5, CSS3, interactive JavaScript logic, and modular page creation (Home, Products, About).</div>
+                    </td>
+                    <td class="amt">₹4,500.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item-desc">Advanced GSAP Web Animations</div>
+                        <div class="item-sub">Implementation of GreenSock ScrollTriggers, horizontal scrolling marquees, and dynamic rotating badge elements.</div>
+                    </td>
+                    <td class="amt">₹3,000.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item-desc">Custom WhatsApp E-Commerce System</div>
+                        <div class="item-sub">Development of a custom "Add to Inquiry" cart system with floating modal, dynamic catalog filtering, and WhatsApp API integration.</div>
+                    </td>
+                    <td class="amt">₹2,500.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item-desc">Mobile Optimization & Deployment Prep</div>
+                        <div class="item-sub">Cross-device responsive adjustments (iOS/Android), layout testing, cache management, and final asset preparation.</div>
+                    </td>
+                    <td class="amt">₹1,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Totals -->
+        <div class="totals-container">
+            <table class="totals-table">
+                <tr>
+                    <td>Subtotal</td>
+                    <td class="amt">₹15,000.00</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td class="amt">₹0.00</td>
+                </tr>
+                <tr>
+                    <td>Total Expected Amount</td>
+                    <td class="amt">₹15,000.00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footer-note">
+            <p>Thank you for your business. This quotation is valid for 30 days.</p>
+        </div>
+    </div>
+
+</body>
+</html>

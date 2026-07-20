@@ -1,0 +1,87 @@
+[
+    {
+        "id": 10,
+        "name": "Avon REC 793 Recumbent Bike \u00e2\u20ac\u201c Efficient Low-Impact Exercise",
+        "category": "cardio",
+        "price": "\u20b935000 onwards",
+        "rawPrice": 35000,
+        "image": "assets/avon_products/rec-793-recumbent-bike.jpg",
+        "features": [
+            "Avon Official",
+            "Durable",
+            "Premium"
+        ],
+        "specs": [
+            "Stay fit with the Avon REC 793 Recumbent Bike, offering superior comfort and performance for effective low-impact cardio training."
+        ],
+        "desc": "Stay fit with the Avon REC 793 Recumbent Bike, offering superior comfort and performance for effective low-impact cardio training."
+    },
+    {
+        "id": 11,
+        "name": "Avon TM-135 Treadmill \u00e2\u20ac\u201c Compact Motorized Treadmill",
+        "category": "cardio",
+        "price": "\u20b945000 onwards",
+        "rawPrice": 45000,
+        "image": "assets/avon_products/tm-135-treadmill.jpg",
+        "features": [
+            "Avon Official",
+            "Durable",
+            "Premium"
+        ],
+        "specs": [
+            "Walk or run at your pace with the Avon TM-135 Treadmill, designed for smooth, quiet operation and perfect for home fitness enthusiasts."
+        ],
+        "desc": "Walk or run at your pace with the Avon TM-135 Treadmill, designed for smooth, quiet operation and perfect for home fitness enthusiasts."
+    },
+    {
+        "id": 12,
+        "name": "Avon AB-1002 Arm Blaster \u00e2\u20ac\u201c Sculpt Your Arms to Perfection",
+        "category": "accessories",
+        "price": "\u20b92500 onwards",
+        "rawPrice": 2500,
+        "image": "assets/avon_products/ab-1002-arm-blaster.jpg",
+        "features": [
+            "Avon Official",
+            "Durable",
+            "Premium"
+        ],
+        "specs": [
+            "Build biceps with Avon AB-1002 Arm Blaster. Sturdy design ensures perfect form during intense arm workouts."
+        ],
+        "desc": "Build biceps with Avon AB-1002 Arm Blaster. Sturdy design ensures perfect form during intense arm workouts."
+    },
+    {
+        "id": 13,
+        "name": "Avon OB-1451 Orbitrac with Steel Wheel \u00e2\u20ac\u201c Durable Cardio Machine",
+        "category": "cardio",
+        "price": "\u20b918000 onwards",
+        "rawPrice": 18000,
+        "image": "assets/avon_products/ob-1451-orbitrac-with-steel-wheel.jpg",
+        "features": [
+            "Avon Official",
+            "Durable",
+            "Premium"
+        ],
+        "specs": [
+            "Strengthen your cardiovascular health with the Avon OB-1451 Orbitrac, featuring a sturdy steel wheel for a smooth workout."
+        ],
+        "desc": "Strengthen your cardiovascular health with the Avon OB-1451 Orbitrac, featuring a sturdy steel wheel for a smooth workout."
+    },
+    {
+        "id": 14,
+        "name": "Avon UP 993 Upright Bike \u00e2\u20ac\u201c Enhanced Cardio Training",
+        "category": "cardio",
+        "price": "\u20b925000 onwards",
+        "rawPrice": 25000,
+        "image": "assets/avon_products/up-993-upright-bike.jpg",
+        "features": [
+            "Avon Official",
+            "Durable",
+            "Premium"
+        ],
+        "specs": [
+            "Get a superior cardio experience with the Avon UP 993 Upright Bike, designed for ergonomic support and effective calorie burn."
+        ],
+        "desc": "Get a superior cardio experience with the Avon UP 993 Upright Bike, designed for ergonomic support and effective calorie burn."
+    }
+]

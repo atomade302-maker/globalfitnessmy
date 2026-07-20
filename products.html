@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our full range of premium gym & fitness equipment at Global Fitness & Sports Mysore. Treadmills, home gyms, spin bikes, accessories and more.">
+    <title>Equipment Catalogue | Global Fitness & Sports Mysore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=66">
+    <style>
+        /* Products page specific overrides */
+        body { background: #000000; }
+
+        .products-page-header {
+            background: #000000;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .products-page-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .products-page-nav .back-home {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: opacity 0.2s;
+        }
+        .products-page-nav .back-home:hover { opacity: 0.7; }
+        .products-page-nav .logo-wrap img {
+            height: 64px;
+            width: auto;
+            object-fit: contain;
+        }
+        .products-page-nav .wa-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #2563eb;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        .products-page-nav .wa-link:hover { background: #1d4ed8; }
+
+        .products-page-hero {
+            background: #000000;
+            padding: 60px 0 40px;
+            text-align: center;
+        }
+        .products-page-hero .page-tag {
+            display: inline-block;
+            background: rgba(37,99,235,0.15);
+            border: 1px solid rgba(37,99,235,0.3);
+            color: #60a5fa;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 5px 14px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .products-page-hero h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 14px;
+        }
+        .products-page-hero p {
+            color: #8e94a5;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .products-catalogue-section {
+            padding: 40px 0 80px;
+            background: #000000;
+        }
+
+        /* Override product image wrapper for this page */
+        .product-img-wrapper {
+            background: #ffffff !important;
+        }
+
+        @media (max-width: 576px) {
+            .products-page-nav {
+                padding: 0 12px;
+            }
+            .products-page-nav .nav-btn-text {
+                display: none;
+            }
+            .products-page-nav .back-home, 
+            .products-page-nav .wa-link {
+                width: 38px;
+                height: 38px;
+                padding: 0;
+                justify-content: center;
+                border-radius: 50%;
+                gap: 0;
+            }
+            .products-page-nav .back-home i, 
+            .products-page-nav .wa-link i {
+                font-size: 1.1rem;
+            }
+            .products-page-nav .logo-wrap img {
+                height: 80px; /* Scale up logo on mobile */
+            }
+            .products-page-hero {
+                padding: 40px 0 25px;
+            }
+            .products-catalogue-section {
+                padding: 20px 0 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page Header / Nav -->
+    <header class="products-page-header">
+        <nav class="products-page-nav">
+            <a href="index.html" class="back-home" id="backHomeBtn">
+                <i class="fa-solid fa-arrow-left"></i> <span class="nav-btn-text">Back to Home</span>
+            </a>
+            <a href="index.html" class="logo-wrap">
+                <img src="logo.png?v=17" alt="Global Fitness & Sports">
+            </a>
+            <div class="nav-right-group" style="display: flex; align-items: center; gap: 15px;">
+                <button class="cart-toggle-btn-noramble" id="cartToggleBtn" aria-label="Open Inquiry Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cartBadgeCount">0</span>
+                </button>
+                <a href="https://wa.me/919886728704" target="_blank" class="wa-link" id="waHeaderBtn">
+                    <i class="fa-brands fa-whatsapp"></i> <span class="nav-btn-text">WhatsApp Inquiry</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="products-page-hero">
+        <span class="page-tag">Full Catalogue</span>
+        <h1>Explore All Equipment</h1>
+        <p>Browse our complete range of premium gym & sports equipment. Filter by category or search by name.</p>
+    </section>
+
+    <!-- Product Grid Section -->
+    <section class="products-catalogue-section">
+        <div class="container">
+            <!-- Search and Filter Bar -->
+            <div class="filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="productSearchInput" placeholder="Search Treadmill, Dumbbells, Spin Bike...">
+                </div>
+                <div class="filter-categories" id="filterCategories">
+                    <button class="filter-btn active" data-category="all" id="btnFilterAll">All Equipment</button>
+                    <button class="filter-btn" data-category="treadmill" id="btnFilterTreadmill">Treadmill</button>
+                    <button class="filter-btn" data-category="cross-training" id="btnFilterCrossTraining">Cross Training</button>
+                    <button class="filter-btn" data-category="spine-bike" id="btnFilterSpineBike">Spine Bike</button>
+                    <button class="filter-btn" data-category="upright-bike" id="btnFilterUprightBike">Upright Bike</button>
+                    <button class="filter-btn" data-category="home-gym" id="btnFilterHomeGym">Home Gym</button>
+                    <button class="filter-btn" data-category="accessories" id="btnFilterAccessories">Accessories</button>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Dynamically loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fa-solid fa-cart-shopping"></i> Inquiry Cart</h3>
+            <button class="cart-close-btn" id="cartCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-body" id="cartBody">
+            <div class="cart-empty-state" id="cartEmptyState">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <p>Your inquiry list is empty.</p>
+                <p class="small-text">Add items to request custom wholesale pricing.</p>
+            </div>
+            <div class="cart-items-list hidden" id="cartItemsList"></div>
+        </div>
+        <div class="cart-footer hidden" id="cartFooter">
+            <div class="cart-total-summary">
+                <span>Total Items:</span>
+                <span class="total-count-val" id="cartTotalItemsCount">0</span>
+            </div>
+            <button class="btn-primary w-100 whatsapp-checkout-btn" id="whatsappCheckoutBtn">
+                <i class="fa-brands fa-whatsapp"></i> Inquire via WhatsApp
+            </button>
+            <p class="cart-notice">We will generate a WhatsApp chat list for instant pricing.</p>
+        </div>
+    </div>
+    <div class="cart-backdrop" id="cartBackdrop"></div>
+
+    <!-- Product Detail Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="modalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-grid">
+                <div class="modal-image-side">
+                    <img id="modalProductImg" src="" alt="Product View">
+                </div>
+                <div class="modal-details-side">
+                    <span class="modal-category" id="modalProductCategory">CARDIO</span>
+                    <h3 id="modalProductName">Premium Treadmill</h3>
+                    <p class="modal-price" id="modalProductPrice">₹45,000 onwards</p>
+                    <p class="modal-desc" id="modalProductDesc"></p>
+                    <div class="modal-specs">
+                        <h4>Specifications & Features:</h4>
+                        <ul id="modalProductSpecsList"></ul>
+                    </div>
+                    <div class="modal-delivery-promise">
+                        <i class="fa-solid fa-truck-fast"></i> Delivery & Installation available across Mysore
+                    </div>
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="modalAddToCartBtn">Add to Inquiry</button>
+                        <button class="btn-secondary" id="modalDirectWhatsAppBtn"><i class="fa-brands fa-whatsapp"></i> Direct Inquiry</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo footer-logo"><img src="logo.png?v=17" alt="Global Fitness & Sports"></a>
+                <p class="footer-desc">Your one-stop destination for premium fitness and sports equipment.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook" onclick="alert('Available soon!'); return false;"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram" onclick="alert('Available soon!'); return false;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube" onclick="alert('Available soon!'); return false;"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Twitter" onclick="alert('Available soon!'); return false;"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>QUICK LINKS</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#setup">Services</a></li>
+                    <li><a href="products.html">Equipments</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>CATEGORIES</h4>
+                <ul class="footer-links">
+                    <li><a href="#products" class="footer-cat-link" data-category="treadmill">Cardio Equipments</a></li>
+                    <li><a href="#products" class="footer-cat-link" data-category="home-gym">Strength Equipments</a></li>
+                    <li><a href="#products" class="footer-cat-link" data-category="accessories">Free Weights</a></li>
+                    <li><a href="#products" class="footer-cat-link" data-category="accessories">Sports Essentials</a></li>
+                    <li><a href="#products" class="footer-cat-link" data-category="accessories">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>CONTACT US</h4>
+                <ul class="footer-contact-info-list" style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 12px; display: flex; gap: 10px; align-items: flex-start; color: var(--text-muted);">
+                        <i class="fa-solid fa-map-marker-alt" style="color: var(--accent-color); margin-top: 4px;"></i>
+                        <span>No. 112/A, Near Raghavendra Bakery,<br>Devaraj Urs Road, Mysore, Karnataka - 570001</span>
+                    </li>
+                    <li style="margin-bottom: 12px; display: flex; gap: 10px; align-items: center; color: var(--text-muted);">
+                        <i class="fa-solid fa-phone" style="color: var(--accent-color);"></i>
+                        <span>+91 98867 28704</span>
+                    </li>
+                    <li style="margin-bottom: 12px; display: flex; gap: 10px; align-items: center; color: var(--text-muted);">
+                        <i class="fa-solid fa-envelope" style="color: var(--accent-color);"></i>
+                        <span>globalfitnessmysore@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom text-center">
+            <p>&copy; 2024 Global Fitness & Sports. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="app.js?v=23"></script>
+    <script>
+        // On page load, check URL param for category pre-filter
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const cat = params.get('cat');
+            if (cat) {
+                const btn = document.querySelector(`.filter-btn[data-category="${cat}"]`);
+                if (btn) btn.click();
+            }
+        });
+    </script>
+</body>
+</html>
